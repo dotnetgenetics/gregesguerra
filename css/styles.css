@@ -11322,6 +11322,29 @@ section.resume-section .resume-section-content {
   font-weight: bold !important;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .glightbox-clean .gdesc-inner{
+    padding: 22px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .gslide-title{
+    text-align: center;
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+}
+
+/* Show image on mobile devices also */
+.img-profile {
+  max-width: 9rem;
+  max-height: 9rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
 #footer {
   padding: 15px;
   color: #343a40;
