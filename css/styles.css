@@ -11322,7 +11322,7 @@ section.resume-section .resume-section-content {
   font-weight: bold !important;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* For mobile phones: */
   .glightbox-clean .gdesc-inner{
     padding: 22px 20px;
