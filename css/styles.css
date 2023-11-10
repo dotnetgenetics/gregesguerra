@@ -11324,15 +11324,15 @@ section.resume-section .resume-section-content {
 
 @media screen and (max-width: 768px) {
   /* For mobile phones: */
-  .glightbox-clean .gdesc-inner{
+  /* .glightbox-clean .gdesc-inner{
     padding: 22px 20px;
     background-color: #fff;
     border-radius: 10px;
     margin-top: 30px;
     max-height: 500px;
     height: auto;
-    overflow-y: auto;
-  }
+    overflow-y: auto !important;
+  } */
 
   .gslide-title{
     text-align: center;
@@ -11343,7 +11343,7 @@ section.resume-section .resume-section-content {
 
 .glightbox-mobile .glightbox-container .gslide-description{
   height: 100% !important;
-  overflow-y: auto !important;
+  /* overflow-y: auto !important; */
 }
 
 /* Show image on mobile devices also */
