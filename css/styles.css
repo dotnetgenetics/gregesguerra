@@ -11307,9 +11307,9 @@ section.resume-section .resume-section-content {
 }
 
 .ginner-container{
-   height: 400px !important;
-   max-width: 500px !important;
-   overflow-y: auto;
+   /* height: 100% !important; */
+   /* max-width: 500px !important; */
+   overflow-y: auto !important;
    border-radius: 10px;
 }
 
@@ -11343,7 +11343,7 @@ section.resume-section .resume-section-content {
 
 .glightbox-mobile .glightbox-container .gslide-description{
   height: 100% !important;
-  overflow-y: auto;
+  overflow-y: auto !important;
 }
 
 /* Show image on mobile devices also */
