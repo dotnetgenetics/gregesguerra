@@ -2683,7 +2683,8 @@
           div = null;
           return (
             subString +
-            '... See more <a href="#" class="desc-more">' +
+            '... <a href="#" class="desc-more">' +
+            "See more" +
             wordBoundary +
             "</a>"
           );
